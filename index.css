@@ -1,0 +1,26 @@
+.container {
+    border: 5px solid black;
+    display: flex;
+}
+.nav {
+    flex: 1;
+
+}
+.search {
+    flex: 1;
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.container > li {
+    flex: 1 1 50%;
+}
+
+.search > input {
+    text-align: center;
+}

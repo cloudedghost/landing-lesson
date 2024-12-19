@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.menu-container {
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color: black;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.hero {
+    background-color: black;
+    color: white;
+    width: 900px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
